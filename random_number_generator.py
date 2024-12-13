@@ -22,16 +22,6 @@ ascii_art = r"""
 `------'`------'`------'`------'`------'`------'`------'`------'  
 """
 
-def dramatic_reveal(winner):
-    # Dramatic reveal sequence
-    print("and", end=" ")
-    input()
-    print("the", end=" ")
-    input()
-    print("WINNER is...", end=" ")
-    input()
-    print(f">>> {winner} <<<")
-
 def print_goodbye_ascii():
     # Print the custom goodbye ASCII art with larger font
     goodbye_ascii = r"""
